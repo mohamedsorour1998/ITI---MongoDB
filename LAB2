@@ -1,5 +1,4 @@
 //1- Execute update operations using all update operators ($set, $unset, $push, etc).
-
 //use $set to change the value of a field
 db.restaurants.updateMany({name: "White Castle"}, {$set: {cuisine: "American (New)"}})
 //use $unset to remove the field
